@@ -2,7 +2,7 @@
 	"name": "omp-pragma",
 	"displayName": "omp-pragma",
 	"description": "OpenMP pragma code completion proposals",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "idma88",
 	"author": {
 		"name": "Dmitrii Ivanov"
@@ -72,7 +72,6 @@
 		"@types/vscode": "^1.67.0",
 		"eslint": "^8.14.0",
 		"glob": "^8.0.1",
-		"rimraf": "^3.0.2",
 		"typescript": "^4.6.4"
 	}
 }
