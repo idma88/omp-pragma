@@ -1,0 +1,78 @@
+{
+	"name": "omp-pragma",
+	"displayName": "omp-pragma",
+	"description": "OpenMP pragma code completion proposals",
+	"version": "1.0.0",
+	"publisher": "idma88",
+	"author": {
+		"name": "Dmitrii Ivanov"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/idma88/omp-pragma/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/idma88/omp-pragma"
+	},
+	"bugs": "https://github.com/idma88/omp-pragma/issues",
+	"galleryBanner": {
+		"color": "#00757E",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.67.0"
+	},
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"keywords": [
+		"completion",
+		"openmp",
+		"omp"
+	],
+	"activationEvents": [
+		"onLanguage:c",
+		"onLanguage:cpp"
+	],
+	"icon": "images/icon.png",
+	"main": "./src/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "OpenMP pragma",
+			"type": "object",
+			"properties": {
+				"omp-pragma.scheduleMaxChunkSize": {
+					"type": "number",
+					"default": 8,
+					"minimum": 0,
+					"markdownDescription": "Item count for *schedule* `chunk_size`"
+				},
+				"omp-pragma.referenceLang": {
+					"type": "string",
+					"default": "en",
+					"enum": [
+						"en"
+					],
+					"description": "Reference language"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"bundle": "npm run pretest && vsce package",
+		"publish": "npm run bundle && vsce publish",
+		"clean": "node node_modules/rimraf/bin.js *.vsix"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "14.x",
+		"@types/vscode": "^1.67.0",
+		"eslint": "^8.14.0",
+		"glob": "^8.0.1",
+		"rimraf": "^3.0.2",
+		"typescript": "^4.6.4"
+	}
+}
