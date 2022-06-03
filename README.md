@@ -5,7 +5,6 @@
 [![VS Code Marketplace Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/idma88.omp-pragma.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
 [![VS Code Marketplace Installs](https://vsmarketplacebadge.apphb.com/installs-short/idma88.omp-pragma.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
 
-
 This extension adds code completion proposals for OpenMP's pragma into Visual Studio Code.
 
 ## Features
@@ -19,26 +18,27 @@ This extension adds code completion proposals for OpenMP's pragma into Visual St
 
 ![Reference](https://raw.githubusercontent.com/idma88/omp-pragma/main/images/reference.gif)
 
-
 ## Extension Settings
 
 This extension contributes the following settings:
 
-* `omp-pragma.scheduleMaxChunkSize`: Item count for *schedule* `chunk_size`
-* `omp-pragma.helpLang`: Reference language
+Settings | Description
+-|-
+`omp-pragma.scheduleMaxChunkSize` | Item count for *schedule* `chunk_size`
+`omp-pragma.helpLang` | Reference language
 
 ## Release Notes
 
 ### 1.0.2
 
-Fixed change in the language of reference materials
-
-Added translation of reference materials in Russian
+- Fixed change in the language of reference materials
+- Added translation of reference materials in Russian
+- Update README
 
 ### 1.0.1
 
-Update README
+- Update README
 
 ### 1.0.0
 
-Initial release
+- Initial release
