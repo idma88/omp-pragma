@@ -1,5 +1,6 @@
 ## Version 1.0.2
 - Fixed change in the language of reference materials
+- Added translation of reference materials in Russian
 
 ## Version 1.0.1
 - Update README
