@@ -29,6 +29,10 @@ This extension contributes the following settings:
 
 ## Release Notes
 
+### 1.0.2
+
+Fixed change in the language of reference materials
+
 ### 1.0.1
 
 Update README

@@ -22,6 +22,10 @@ function makeCompletionItem(node) {
   return completion;
 }
 
+function onChangeConfiguration(params) {
+  providerDoc.setLang(vscode.workspace.getConfiguration('omp-pragma').referenceLang);
+}
+
 const regexpSrc = {
   startPragmaOmp: '^#pragma omp ',
   optionalParallel: '(?:parallel )?',
@@ -38,5 +42,7 @@ module.exports = {
   getLine,
   tokenize,
   makeLine,
-  makeCompletionItem
+  makeCompletionItem,
+
+  onChangeConfiguration
 };

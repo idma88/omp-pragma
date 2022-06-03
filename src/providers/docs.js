@@ -4,9 +4,15 @@ const path = require('path');
 
 class Reference {
 	constructor() {
-		this.lang = vscode.workspace.getConfiguration('omp-pragma').referenceLang;
 		this.getRefDir = () => path.resolve(__dirname, `../../docs/${this.lang}`);
 
+		this.setLang(vscode.workspace.getConfiguration('omp-pragma').referenceLang);
+
+		if (!fs.existsSync(this.getRefDir())) this.lang = "en";
+	}
+
+	setLang(lang) {
+		this.lang = lang;
 		if (!fs.existsSync(this.getRefDir())) this.lang = "en";
 	}
 

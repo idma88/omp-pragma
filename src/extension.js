@@ -1,4 +1,7 @@
 const vscode = require('vscode');
+
+const utils = require('./utils');
+
 const providerMain = require('./providers/main');
 const providerDefaultClause = require('./providers/defaultClause');
 const providerScheduleKindClause = require('./providers/scheduleKindClause');
@@ -13,6 +16,8 @@ const selector = [
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
+	vscode.workspace.onDidChangeConfiguration(utils.onChangeConfiguration);
+
 	const allDirective = vscode.languages.registerCompletionItemProvider(
 		selector,
 		providerMain,
