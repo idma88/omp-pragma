@@ -1,0 +1,4 @@
+{
+	"configuration.scheduleMaxChunkSize": "Item count for *schedule* `chunk_size`",
+	"configuration.referenceLang": "Reference language"
+}

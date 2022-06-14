@@ -1,0 +1,4 @@
+{
+	"configuration.scheduleMaxChunkSize": "Количество элементов для *schedule* `chunk_size`",
+	"configuration.referenceLang": "Язык справочных материалов"
+}

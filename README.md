@@ -29,6 +29,10 @@ Settings | Description
 
 ## Release Notes
 
+### 1.0.3
+
+- Added parameter localization in Russian
+
 ### 1.0.2
 
 - Fixed change in the language of reference materials

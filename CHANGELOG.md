@@ -1,3 +1,6 @@
+## Version 1.0.3
+- Added parameter localization in Russian
+
 ## Version 1.0.2
 - Fixed change in the language of reference materials
 - Added translation of reference materials in Russian

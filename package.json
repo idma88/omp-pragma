@@ -2,7 +2,7 @@
 	"name": "omp-pragma",
 	"displayName": "omp-pragma",
 	"description": "OpenMP pragma code completion proposals",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"publisher": "idma88",
 	"author": {
 		"name": "Dmitrii Ivanov"
@@ -45,7 +45,7 @@
 					"type": "number",
 					"default": 8,
 					"minimum": 0,
-					"markdownDescription": "Item count for *schedule* `chunk_size`"
+					"markdownDescription": "%configuration.scheduleMaxChunkSize%"
 				},
 				"omp-pragma.referenceLang": {
 					"type": "string",
@@ -54,7 +54,7 @@
 						"en",
 						"ru"
 					],
-					"description": "Reference language"
+					"description": "%configuration.referenceLang%"
 				}
 			}
 		}
