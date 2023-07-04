@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 1.1.0
+- Transition to semantic versioning
+- Dependency update
+- Update icon
+
 ## Version 1.0.3
 - Added parameter localization in Russian
 

@@ -2,7 +2,7 @@
 	"name": "omp-pragma",
 	"displayName": "omp-pragma",
 	"description": "OpenMP pragma code completion proposals",
-	"version": "1.0.3",
+	"version": "1.1.0",
 	"publisher": "idma88",
 	"author": {
 		"name": "Dmitrii Ivanov"

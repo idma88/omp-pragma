@@ -1,9 +1,11 @@
 # OpenMP pragma code completion proposals for Visual Studio Code
 
-[![License](https://img.shields.io/github/license/idma88/omp-pragma?style=for-the-badge)](https://github.com/idma88/omp-pragma/blob/main/LICENSE)
-[![VS Code Marketplace Version](https://vsmarketplacebadge.apphb.com/version-short/idma88.omp-pragma.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
-[![VS Code Marketplace Downloads](https://vsmarketplacebadge.apphb.com/downloads-short/idma88.omp-pragma.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
-[![VS Code Marketplace Installs](https://vsmarketplacebadge.apphb.com/installs-short/idma88.omp-pragma.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
+[![License](https://img.shields.io/github/license/idma88/omp-pragma?style=for-the-badge)](https://github.com/idma88/omp-pragma/blob/master/LICENSE)
+[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/idma88.omp-pragma?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
+[![VS Code Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/idma88.omp-pragma?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
+[![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/idma88.omp-pragma?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
+[![Visual Studio Marketplace Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/idma88.omp-pragma?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=idma88.omp-pragma)
+
 
 This extension adds code completion proposals for OpenMP's pragma into Visual Studio Code.
 
@@ -28,6 +30,11 @@ Settings | Description
 `omp-pragma.helpLang` | Reference language
 
 ## Release Notes
+
+### 1.1.0
+- Transition to semantic versioning
+- Dependency update
+- Update icon
 
 ### 1.0.3
 
